@@ -1,0 +1,1 @@
+{"name": "espada-web", "scripts": {"start": "serve -p $PORT"}, "dependencies": {"serve": "^14.0.0"}}
