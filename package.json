@@ -1,1 +1,12 @@
-{"name": "espada-web", "scripts": {"start": "serve -p $PORT"}, "dependencies": {"serve": "^14.0.0"}}
+{
+  "name": "espada-web",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

@@ -11,6 +11,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'ganti-secret-ini-di-file-.env';
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static('.'));
 
 // ---------- MIDDLEWARE AUTH ----------
 function authRequired(req, res, next) {
